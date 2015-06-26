@@ -1,0 +1,91 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Libros</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="estilo.css">
+
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+    <div class="col-md-12">
+        <img src="biblioteca2.gif" class="img-responsive" alt="biblioteca" width="400" height="100">
+    </div>
+
+    <div id="menuPrincipal" class="btn-group-vertical">
+        <div class="col-md-8">
+            <h1>BIBLIOTECA DAW</h1>
+        </div>
+        <div class="col-md-8"><a href=""><h3>Home</h3></a>
+        </div>
+        <div class="dropdown">
+            <button class="btn btn-block dropdown-toggle" type="button" id="menuprincipal" data-toggle="dropdown">Recursos
+                <span class="caret"></span>
+            </button>
+            <ul id="menuprincipal" class="dropdown-menu" role="menu" aria-labelledby="menu">
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Libros</a>
+                </li>
+                <li role="presentation" class="divider"></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Articulos</a>
+                </li>
+                <li role="presentation" class="divider"></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Videos</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+
+
+
+    <div id="iniciarSesion" class="btn-group-vertical">
+        <button id="boton" class="btn btn-block"> Administrador</button>
+        <button id="boton" class="btn btn-block"> Usuario</button>
+    </div>
+
+    <div id="tabla" class="table-responsive">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Codigo Ejemplar</th>
+                    <th>Titulo Libro</th>
+                    <th>Autor</th>
+                    <th>Reservar</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>libro1</td>
+                    <td>autor1</td>
+                    <td><a href="">Reservar</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>libro2</td>
+                    <td>autor2</td>
+                    <td><a href="">Reservar</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>libro3</td>
+                    <td>autor3</td>
+                    <td><a href="">Reservar</a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+
+</body>
+
+</html>

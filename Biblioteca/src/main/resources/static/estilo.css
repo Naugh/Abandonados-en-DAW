@@ -1,0 +1,24 @@
+body {
+    background-color: #b8d7fc;
+}
+
+#menuPrincipal {
+    text-align: center;
+    border: 2px;
+}
+
+.dropdown-menu {
+    list-style: none;
+}
+
+a.nounderline:link {
+    text-decoration: none;
+}
+
+#iniciarSesion {}
+
+#boton {}
+
+#tabla {
+    margin-top: 20px;
+}
